@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Add React in One Minute</title>
+<!-- Tutorial from https://reactjs.org/docs/add-react-to-a-website.html#step-1-add-a-dom-container-to-the-html -->
 </head>
 
 <body>
@@ -17,6 +18,14 @@
 
   <!-- Load our React component. -->
   <script src="like_button.js"></script>
+	
+<!-- 
+To prepare this app for production:
+1. minify JS (like_button.js) -- one of ways to do it is: https://gist.github.com/gaearon/42a2ffa41b8319948f9be4076286e1f3
+2. Replace React scripts with 'production.min.js':
+<script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+-->
 	
 </body>
 </html>

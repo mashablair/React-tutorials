@@ -1,3 +1,4 @@
+// https://reactjs.org/docs/add-react-to-a-website.html#step-1-add-a-dom-container-to-the-html
 'use strict';
 
 const e = React.createElement;
